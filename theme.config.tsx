@@ -35,7 +35,12 @@ const config: DocsThemeConfig = {
         <>
             <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
         </>
-    )
+    ),
+    useNextSeoProps() {
+        return {
+            titleTemplate: '%s – ПОИС'
+        }
+    }
 }
 
 export default config
