@@ -33,7 +33,7 @@ const config: DocsThemeConfig = {
     },
     head: (
         <>
-            <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+            <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
         </>
     ),
     useNextSeoProps() {
