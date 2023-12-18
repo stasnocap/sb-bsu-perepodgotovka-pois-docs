@@ -36,6 +36,27 @@ const config: DocsThemeConfig = {
             <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
         </>
     ),
+    editLink: {
+        text: "Редактировать"
+    },
+    feedback: {
+        content: null,
+    },
+    toc: {
+        title: "На это странице"
+    },
+    search: {
+        placeholder: "Поиск",
+        emptyResult:
+            (<span className="nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400">
+                Не найдено :(
+            </span>)
+    },
+    gitTimestamp: (date) => (
+        <>
+            Обновлено {date.timestamp.toLocaleDateString("ru")}
+        </>
+    ),
     useNextSeoProps() {
         return {
             titleTemplate: '%s – ПОИС'
