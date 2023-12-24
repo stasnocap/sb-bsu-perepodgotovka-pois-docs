@@ -64,6 +64,15 @@ const config: DocsThemeConfig = {
         return {
             titleTemplate: '%s – ПОИС'
         }
+    },
+    themeSwitch: {
+        useOptions() {
+            return {
+                light: 'Светлая',
+                dark: 'Темная',
+                system: 'Системная'
+            }
+        }
     }
 }
 
