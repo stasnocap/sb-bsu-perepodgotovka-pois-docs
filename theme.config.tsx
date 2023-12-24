@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
         content: null,
     },
     toc: {
-        title: "На это странице"
+        title: "На этой странице"
     },
     search: {
         placeholder: "Поиск",
